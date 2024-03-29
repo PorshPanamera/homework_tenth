@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #efefef;
+}
+a {
+  text-decoration: none;
+}
+.navbox nav a {
+  margin-left: 5%;
+  color: #333333;
+  font-weight: 400;
+  font-size: 14px;
+}
+.navbox {
+  padding: 2% 10% 2% 35%;
+}
+header {
+  width: 100vw;
+  height: 27vh;
+  background-color: white;
+  position: relative;
+}
+#img_logo {
+  display: inline-block;
+  margin: 2% 2% 2% 15%;
+}
+h1 {
+  display: inline-block;
+  color: #f13c6e;
+  position: absolute;
+  top: 23%;
+}
+#a_logo {
+  position: absolute;
+  color: #333333;
+  right: 28%;
+  top: 26%;
+}
+#button_logo {
+  border-color: #f13c6e;
+  border-radius: 20px;
+  background-color: white;
+  padding: 8px 45px;
+  margin: 3.5% 15% 0 0;
+  float: right;
+  clear: both;
+}
+.navbox2 nav a {
+  margin-left: 5%;
+  color: #333333;
+  font-weight: 400;
+  font-size: 16px;
+}
+.navbox2 {
+  padding: 2% 10% 1% 27%;
+}
+.description {
+  position: relative;
+}
+.description img {
+  width: 100vw;
+}
+.description_text {
+  position: absolute;
+  bottom: 30%;
+  left: 15%;
+}
+.description_text h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+}
+.description_text p {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 10%;
+  color: white;
+}
+.description_text button {
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  border-color: white;
+  border-radius: 20px;
+  background-color: #f13c6e;
+  padding: 8px 45px;
+  margin-top: 10%;
+}
+.offers {
+  height: 75%;
+  padding-right: 12%;
+}
+.offers #box {
+  margin-left: 2%;
+}
+.offers h2 {
+  padding: 5% 0 3% 13.5%;
+}
+#box {
+  height: 365px;
+  width: 255px;
+  background-color: white;
+  float: right;
+}
+#box img {
+  margin: 5% 0 0 25%;
+}
+#box p {
+  margin: 5% 0 0 10%;
+}
+#box h3 {
+  margin: 5% 0 0 40%;
+}
+#box button {
+  border-style: none;
+  border-radius: 20px;
+  background-color: #f13c6e;
+  padding: 8px 45px;
+  margin: 5% 0 0 25%;
+}
+.e-meil_box {
+  height: 215px;
+  width: 540px;
+  background-color: #f13c6e;
+  display: inline-block;
+  margin-left: 11.5%;
+}
+.e-meil_box img {
+  float: right;
+  margin: 7%;
+}
+.e-meil_box h2 {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 7% 0 5% 7%;
+  color: white;
+}
+.e-meil_box p {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0 0 5% 7%;
+  color: white;
+}
+input {
+  border-radius: 20px;
+  padding: 10px 35px;
+  border-style: none;
+  margin-left: 15%;
+}
+.VisitUs {
+  height: 215px;
+  width: 540px;
+  background-color: #f13c6e;
+  float: right;
+  margin-right: 11.5%;
+}
+.VisitUs img {
+  float: right;
+  margin: 7%;
+}
+.VisitUs h2 {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 7% 0 5% 7%;
+  color: white;
+}
+.VisitUs p {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0 0 5% 7%;
+  color: white;
+}
+.VisitUs button {
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  border-color: white;
+  border-radius: 20px;
+  background-color: #f13c6e;
+  padding: 8px 55px;
+  margin-left: 7%;
+}
+.table table {
+  border-collapse: collapse;
+  width: 70%;
+  background-color: white;
+  margin: 8% 0 0 15%;
+}
+.table td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 5px;
+}
+.table img {
+  max-width: 100%;
+  height: auto;
+}
+.RecentlyViwed {
+  width: 100vw;
+  height: 70%;
+  padding-right: 12%;
+}
+.RecentlyViwed #box {
+  margin-left: 2%;
+}
+.RecentlyViwed h2 {
+  padding: 5% 0 3% 13.5%;
+}
+.footer {
+  display: inline-block;
+  width: 100vw;
+  height: 49vh;
+  background-color: white;
+}
+.footer #category {
+  margin-left: 2%;
+}
+#category {
+  float: right;
+  padding: 8% 15% 0 0;
+}
+#category h2 {
+  font-weight: 500;
+  font-size: 16px;
+}
+#category a {
+  font-weight: 400;
+  font-size: 12px;
+  color: #828282;
+  display: inline-block;
+  padding-bottom: 15%;
+}
+.SocialNetworks {
+  width: 100vw;
+  height: 20vh;
+  background-color: white;
+  position: relative;
+}
+.SocialNetworks img {
+  display: inline-block;
+  padding: 4% 0 0 12%;
+}
+.SocialNetworks button {
+  border-color: #f13c6e;
+  border-radius: 20px;
+  background-color: white;
+  padding: 8px 45px;
+  float: right;
+  clear: both;
+  margin: 4.5% 15% 0 0;
+}
+.SocialNetworks a {
+  color: #828282;
+  position: absolute;
+  right: 30%;
+  top: 45%;
+}
+.footer_p {
+  padding: 2% 0 2% 12%;
+}
+#p1 {
+  font-weight: 400;
+  font-size: 12px;
+  color: #828282;
+  display: inline-block;
+}
+#p2 {
+  font-weight: 400;
+  font-size: 12px;
+  color: #828282;
+  display: inline-block;
+  margin-left: 44%;
+}
